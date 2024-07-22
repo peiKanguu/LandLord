@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\GUI">
+      <UniqueIdentifier>{9fea5a09-6035-444d-9072-3624425e4167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Class">
+      <UniqueIdentifier>{662b6162-d491-408e-8f3e-414eebe19c0b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -20,56 +26,56 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="RegisterGUI.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LoginGUI.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Button.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="TextBox.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="MainGUI.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="AccountGUI.h">
+      <Filter>头文件\GUI</Filter>
     </ClInclude>
     <ClInclude Include="LobbyGUI.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginGUI.h">
+      <Filter>头文件\GUI</Filter>
     </ClInclude>
     <ClInclude Include="PokerTableGUI.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGUI.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterGUI.h">
+      <Filter>头文件\GUI</Filter>
     </ClInclude>
     <ClInclude Include="SettingGUI.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="AccountGUI.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\GUI</Filter>
     </ClInclude>
     <ClInclude Include="SettlementGui.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\GUI</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Login.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Register.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Button.h">
+      <Filter>头文件\Class</Filter>
     </ClInclude>
     <ClInclude Include="Card.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Deck.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Class</Filter>
     </ClInclude>
     <ClInclude Include="CardCounter.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>头文件\Class</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
