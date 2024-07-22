@@ -129,6 +129,25 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountGUI.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="CardCounter.h" />
+    <ClInclude Include="Deck.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="LobbyGUI.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="LoginGUI.h" />
+    <ClInclude Include="MainGUI.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PokerTableGUI.h" />
+    <ClInclude Include="Register.h" />
+    <ClInclude Include="RegisterGUI.h" />
+    <ClInclude Include="SettingGUI.h" />
+    <ClInclude Include="SettlementGui.h" />
+    <ClInclude Include="TextBox.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
