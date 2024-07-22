@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PokerTableGUI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AccountGUI.h" />
