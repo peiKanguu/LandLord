@@ -144,9 +144,13 @@
     <ClInclude Include="PokerTableGUI.h" />
     <ClInclude Include="Register.h" />
     <ClInclude Include="RegisterGUI.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="SettingGUI.h" />
     <ClInclude Include="SettlementGui.h" />
     <ClInclude Include="TextBox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Landlords.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
