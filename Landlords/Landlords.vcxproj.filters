@@ -24,6 +24,15 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SQL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AccountGUI.h">
@@ -75,6 +84,9 @@
       <Filter>头文件\Class</Filter>
     </ClInclude>
     <ClInclude Include="TextBox.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="SQL.h">
       <Filter>头文件\Class</Filter>
     </ClInclude>
   </ItemGroup>
